@@ -1,0 +1,54 @@
+.classname{
+    position: relative; 
+    position: static;
+    position: absolute;
+    
+    /* pos */
+    display: block;
+    display: flex;
+    display: inline;
+    display: inline-block;
+    
+    /* d */
+
+    visibility: visible;
+
+    /* V */
+
+    overflow: auto;
+    overflow: scroll;
+
+    /* OV */
+
+    cursor: pointer;
+    cursor: help;
+
+    /* cur */
+    
+    margin: auto;
+    margin: 9px;
+    margin-top: 9px;
+
+    /* m  */
+    padding: 9px;
+    padding-top: ;
+    padding-bottom: 9px;
+
+    /* p  */
+
+    background: #000;
+    background-color: #fff;
+    color: #000;
+
+    /* bg and bgc  and c */
+
+    border: 1px solid #000;
+    border: none;
+
+    /* bd  */
+
+
+
+
+
+}

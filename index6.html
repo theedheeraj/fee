@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Age Confirmation</title>
+<style>
+   
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      
+      .container {
+        text-align: center;
+      }
+      
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .question {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      
+      .button-container {
+        display: flex;
+        gap: 10px;
+      }
+      
+      .yesBtn, .noBtn {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        color: white;
+        border: none;
+      }
+      
+      .yesBtn {
+        background-color: green;
+      }
+      
+      .noBtn {
+        background-color: red;
+      }
+      
+</style>
+
+
+</head>
+<body>
+
+    
+
+   
+<div class="container">
+    <div class="flex-container">
+      <div class="question">Are you 18 years old?</div>
+      <div class="button-container">
+        <button id="confirmYes" class="yesBtn">Yes</button>
+        <button id="confirmNo" class="noBtn">No</button>
+      </div>
+    </div>
+  </div>
+     
+
+<script >
+    document.getElementById("confirmBtn").addEventListener("click", function() {
+        var confirmed = confirm("Click OK if you want to confirm your age.");
+        if (confirmed) {
+          var isEighteen = confirm("Are you 18 years old?");
+          if (isEighteen) {
+            alert("Great! You may proceed.");
+          } else {
+            alert("Sorry, you must be 18 years old to proceed.");
+          }
+        } else {
+          alert("You need to confirm your age first.");
+        }
+      });
+      
+      
+</script>
+</body>
+</html>

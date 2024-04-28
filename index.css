@@ -1,0 +1,15 @@
+.container{
+    background-color: rgb(92, 92, 234);
+    height: auto;
+    width: auto;
+    
+
+}
+
+.box{
+    border: 15px solid violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
